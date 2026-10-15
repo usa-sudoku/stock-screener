@@ -47,7 +47,7 @@ jobs:
         run: npm --prefix ui run build
         env:
           VITE_DATA_MODE: static
-          VITE_BASE: /crible/
+          VITE_BASE: /stock-screener/
 
       - name: Attach the published data artifacts
         run: |
